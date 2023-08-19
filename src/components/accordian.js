@@ -54,6 +54,7 @@ export default function Accordian({
           </button>
         </h2>
       </div>
+      {/* A fraction or 1FR is one part of the whole. One 1FR fraction is 100% of the available space. Two 1FR fractions are 50% each of the available space. So, in that case, 1FR is 1/2 of the available space. */}
       <div
         id={`accordion-text-${id}`}
         aria-labelledby={`accordion-title-${id}`}
