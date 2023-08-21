@@ -15,6 +15,7 @@ export default function Home() {
         <AddTask />
         <TaskList />
       </div>
+      <Faqs />
     </main>
   );
 }
